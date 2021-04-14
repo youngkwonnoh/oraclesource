@@ -46,3 +46,4 @@ SELECT EMPNO, ENAME, JOB FROM emp ORDER BY EMPNO ASC;
 -- 부서번호의 오름차순과 급여의 내림차순 정렬하기
 select * from emp Order BY deptno ASC, sal DESC;
 
+-- 
