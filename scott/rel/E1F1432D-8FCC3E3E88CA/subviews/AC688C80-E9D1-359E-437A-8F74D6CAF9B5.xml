@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="AC688C80-E9D1-359E-437A-8F74D6CAF9B5">
+<createdBy>노영권</createdBy>
+<modifiedBy>노영권</modifiedBy>
+<createdTime>2021-04-13 08:10:04 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="01C5CE43-2025-93EC-3607-D47ED8ECA909" otype="Table" vid="B522F2FA-95F1-2626-9F74-88D393346339">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="288" y="227" width="139" height="72"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="3C6AAC64-535D-8D5E-4894-F5A620249E19" otype="Table" vid="50D7BBF9-51EB-0818-8BF1-A697C661BD76">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="290" width="209" height="114"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="78932DBA-FAD1-036D-7D06-6F4A847FFBDC" otype="Table" vid="E4D4AE28-F356-74DA-A2B9-9C0CE6D83CAB">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="266" y="30" width="203" height="87"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="8E247288-78A5-3283-07C5-C9584FAC8D8E" otype="Table" vid="E162BF10-A802-C38C-8F57-2EF260EF60DD">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="20" width="218" height="210"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="DEEDBC92-4189-3E1B-3F34-8E8F60A9849B" otype="FKIndexAssociation" vid_source="50D7BBF9-51EB-0818-8BF1-A697C661BD76" vid_target="E162BF10-A802-C38C-8F57-2EF260EF60DD">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="124" y="290"/>
+<point x="124" y="230"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DEPARTMENTS" directorySegmentName="seg_0" id="0467F4BC-2FE4-8556-DF3A-399F8DDCFA7F">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+<schemaObject>A854AB2D-3030-C936-50A7-E3A329751541</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>19901601-F81C-263C-15B8-7A34970F8AB3</segment>
+<tableSpace>72D3D090-D0DC-CF0E-6882-B3120A1D2049</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LOCATION_ID" id="205FEC9D-7B2D-3544-C8BF-3240EB17FC34">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTMENT_ID" id="790417D4-AC1D-E900-1CFD-33945EDD5127">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MANAGER_ID" id="AA6E1832-7D21-424A-612F-E7B0D45CF541">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTMENT_NAME" id="CF8060BB-FF54-888A-C178-9A285EC3B142">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DEPT_LOCATION_IX" id="8200D28C-68F4-5A5A-3E9F-80017AEB0203">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+<schemaObject>A854AB2D-3030-C936-50A7-E3A329751541</schemaObject>
+<segment>AB38FF1B-E432-73C6-1128-15145A441239</segment>
+<tableSpace>72D3D090-D0DC-CF0E-6882-B3120A1D2049</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DEPT_ID_PK" id="99A2D00F-8C2B-6F39-C667-C31B6DFF2E23">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+<schemaObject>A854AB2D-3030-C936-50A7-E3A329751541</schemaObject>
+<segment>AB38FF1B-E432-73C6-1128-15145A441239</segment>
+<tableSpace>72D3D090-D0DC-CF0E-6882-B3120A1D2049</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEPT_MGR_FK" id="214CF79C-46B1-E781-CB6B-15628B04BDB0">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEPT_LOC_FK" id="8EA035E7-4D56-2727-AEC2-9B4F6A2FCC0F">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEPT_ID_PK" id="263C71D3-40B6-EF87-0B7B-212B4BA0338E">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+<segment>AB38FF1B-E432-73C6-1128-15145A441239</segment>
+<tableSpace>72D3D090-D0DC-CF0E-6882-B3120A1D2049</tableSpace>
+<existingIndex>99A2D00F-8C2B-6F39-C667-C31B6DFF2E23</existingIndex>
+<indexSegment>AB38FF1B-E432-73C6-1128-15145A441239</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

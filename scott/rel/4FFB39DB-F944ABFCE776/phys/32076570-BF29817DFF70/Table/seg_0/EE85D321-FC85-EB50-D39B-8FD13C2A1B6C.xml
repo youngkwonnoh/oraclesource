@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="EMPLOYEES" directorySegmentName="seg_0" id="EE85D321-FC85-EB50-D39B-8FD13C2A1B6C">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+<schemaObject>A854AB2D-3030-C936-50A7-E3A329751541</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>19901601-F81C-263C-15B8-7A34970F8AB3</segment>
+<tableSpace>72D3D090-D0DC-CF0E-6882-B3120A1D2049</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FIRST_NAME" id="0EEB4166-256E-4503-D378-09D3ABDFAAB4">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_NAME" id="1CDE7F18-F9CD-D3EF-A0A6-F57F8001F10A">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALARY" id="1FFC377E-F8F0-691E-0C3A-5137A431E110">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPLOYEE_ID" id="2DF6EC5C-575D-9BD5-4782-E5EC63582C64">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JOB_ID" id="31DAFFFC-F96F-E3FA-EABC-8AC646CABE43">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HIRE_DATE" id="4E788F8C-B912-6531-B1BF-FCD3ED9CB2C5">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMMISSION_PCT" id="86EAC407-7D21-ED8F-F158-C2534D2D1EB1">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTMENT_ID" id="9A6D85D1-57FE-19DA-0BFB-4A97ADBA40D9">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="CAC2BC2A-B716-9BBC-3DDB-63B56C16F3F5">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE_NUMBER" id="F2660C30-85EA-2F30-55F6-AE375F2A76D2">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MANAGER_ID" id="F67C0EB8-04FE-4616-61F3-7BCF3EB70583">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMP_JOB_IX" id="6629CF65-5C79-A00E-AA56-821EE1A0B3C8">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+<schemaObject>A854AB2D-3030-C936-50A7-E3A329751541</schemaObject>
+<segment>AB38FF1B-E432-73C6-1128-15145A441239</segment>
+<tableSpace>72D3D090-D0DC-CF0E-6882-B3120A1D2049</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMP_EMP_ID_PK" id="87E28A98-307B-6948-E7B7-088D0967D65F">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+<schemaObject>A854AB2D-3030-C936-50A7-E3A329751541</schemaObject>
+<segment>AB38FF1B-E432-73C6-1128-15145A441239</segment>
+<tableSpace>72D3D090-D0DC-CF0E-6882-B3120A1D2049</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMP_NAME_IX" id="C75555E8-0655-F7A1-2ED8-B5858E87DDAC">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+<schemaObject>A854AB2D-3030-C936-50A7-E3A329751541</schemaObject>
+<segment>AB38FF1B-E432-73C6-1128-15145A441239</segment>
+<tableSpace>72D3D090-D0DC-CF0E-6882-B3120A1D2049</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMP_DEPARTMENT_IX" id="D61818A4-7040-F40E-17AE-8B3891D0998F">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+<schemaObject>A854AB2D-3030-C936-50A7-E3A329751541</schemaObject>
+<segment>AB38FF1B-E432-73C6-1128-15145A441239</segment>
+<tableSpace>72D3D090-D0DC-CF0E-6882-B3120A1D2049</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMP_EMAIL_UK" id="DA37E406-36DD-11CF-4A73-873603265D98">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+<schemaObject>A854AB2D-3030-C936-50A7-E3A329751541</schemaObject>
+<segment>AB38FF1B-E432-73C6-1128-15145A441239</segment>
+<tableSpace>72D3D090-D0DC-CF0E-6882-B3120A1D2049</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMP_MANAGER_IX" id="DD39FE50-E1EC-7179-0F5C-CD4643C3E201">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+<schemaObject>A854AB2D-3030-C936-50A7-E3A329751541</schemaObject>
+<segment>AB38FF1B-E432-73C6-1128-15145A441239</segment>
+<tableSpace>72D3D090-D0DC-CF0E-6882-B3120A1D2049</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMP_DEPT_FK" id="5EF4FB6B-78BC-2AC3-FB58-A5A4E943EC21">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMP_MANAGER_FK" id="61B9DD47-CF71-024F-5750-04906CA6E8B6">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMP_JOB_FK" id="A3215288-3513-752C-3A6F-7419BF04F290">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMP_EMP_ID_PK" id="5A04B008-DE47-3D36-80B6-5C7D194F6DBD">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+<segment>AB38FF1B-E432-73C6-1128-15145A441239</segment>
+<tableSpace>72D3D090-D0DC-CF0E-6882-B3120A1D2049</tableSpace>
+<existingIndex>87E28A98-307B-6948-E7B7-088D0967D65F</existingIndex>
+<indexSegment>AB38FF1B-E432-73C6-1128-15145A441239</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="EMP_EMAIL_UK" id="6BB613C2-5F82-D2CD-11F7-CA3913DFAE19">
+<createdBy>노영권</createdBy>
+<createdTime>2021-04-13 08:17:25 UTC</createdTime>
+<ownerDesignName>scott</ownerDesignName>
+<segment>AB38FF1B-E432-73C6-1128-15145A441239</segment>
+<tableSpace>72D3D090-D0DC-CF0E-6882-B3120A1D2049</tableSpace>
+<existingIndex>DA37E406-36DD-11CF-4A73-873603265D98</existingIndex>
+<indexSegment>AB38FF1B-E432-73C6-1128-15145A441239</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>
