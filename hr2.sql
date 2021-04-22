@@ -140,3 +140,23 @@ WHERE (SALARY, NVL(COMMISSION_PCT, 0)) IN (SELECT SALARY, NVL(COMMISSION_PCT, 0)
                                            FROM EMPLOYEES 
                                            WHERE LAST_NAME = 'Kochhar') 
                                            AND E.LAST_NAME != 'Kochhar';
+
+
+-- INDEX 생성
+
+-- 1) 테이블 생성 : EMPLOYEES 테이블에서 FIRST_NAME, LAST_NAME, HIRE_DATE만
+--                추출해서 INDEXTBL 이라는 이름으로 생성
+CREATE TABLE INDEXTBL AS SELECT FIRST_NAME, LAST_NAME, HIRE_DATE FROM EMPLOYEES;
+
+SELECT * FROM INDEXTBL;
+
+SELECT * FROM INDEXTBL WHERE FIRST_NAME = 'JACK';
+
+-- 2) 인덱스 생성 : CREATE INDEX 인덱스명 ON 테이블명(인덱스컬럼명)
+CREATE INDEX IDX_INDEXTBL_FIRSTNAME ON INDEXTBL(FIRST_NAME);
+
+
+
+
+
+

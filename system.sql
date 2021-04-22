@@ -1,4 +1,4 @@
-select * from all_users;
+SELECT * FROM all_users;
 
 -- hr 사용자의 계정을 풀고 비밀번호를 hr로 지정
 ALTER USER hr IDENTIFIED BY hr account unlock;
@@ -7,3 +7,26 @@ ALTER USER hr IDENTIFIED BY hr account unlock;
 CREATE USER shop IDENTIFIED BY 12345;
 -- 권한 부여
 GRANT CONNECT, RESOURCE TO shop;
+-- CONNECT => CREATE SESSION
+-- RESOURCE => CREATE TRIGGER, CREATE SEQUENCE, CREATE PROCEDURE, CREATE TABLE...
+
+-- VIEW 권한 부여
+GRANT CREATE VIEW TO SCOTT;
+
+-- DBA_ : 데이터베이스 관리 권한을 가진 사용자만
+SELECT * FROM DBA_TABLES;
+SELECT * FROM DBA_USERS WHERE USERNAME='SCOTT';
+
+-- 사용자 생성
+CREATE USER TEST IDENTIFIED BY 12345;
+
+-- user TEST lacks CREATE SESSION privilege; logon denied
+-- 권한 부여 GRANT
+GRANT CREATE SESSION TO TEST;
+
+-- 사용자 비밀번호 변경
+ALTER USER TEST IDENTIFIED BY 54321;
+
+-- 사용자 삭제
+DROP USER TEST;
+
