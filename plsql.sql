@@ -641,7 +641,6 @@ CREATE TABLE EMP_TRG_LOG(
     user_name VARCHAR2(30),     -- DML을 수행한 USER 명
     chage_date DATE);           -- DML이 수행된 날짜
 
-
 CREATE OR REPLACE TRIGGER TRG_EMP_LOG
 AFTER -- AFTER(트리거 동작 시점)
 INSERT OR UPDATE OR DELETE ON EMP_TRG
